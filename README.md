@@ -27,9 +27,9 @@ These fields include:
 
 Example input file:
 
-```user01:pass01:Last01:First01:group01
+user01:pass01:Last01:First01:group01
 user02:pass02:Last02:First02:group01,group02
-user03:pass03:Last03:First03:-```
+user03:pass03:Last03:First03:-
 
 To skip a line, prefix the line with # to designate it as a comment. The script will ignore any commented lines or lines that do not contain exactly 5 fields.
 If you do not wish to add a new user to any groups, ensure the fifth field contains the '-' character.
